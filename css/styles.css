@@ -4,7 +4,7 @@
 
 }
 body {
-    font-family: "MontserratBlack";
+    font-family: "montserrat-Black";
 }
 
 .contaner-fluid {
@@ -12,14 +12,14 @@ body {
 }
 
 h1 {
-    font-family: "Montserrat-Black";
+    font-family: "montserrat-Black";
    font-size: 3.5rem;
    line-height: 1.5;
 
 }
 
 h3 {
-    font-family: "Montserrat-Bold";
+    font-family: "montserrat-Bold";
 }
 
 p {
@@ -33,7 +33,7 @@ p {
 }
 
 .navbar-brand {
-    font-size: "Ubuntu-Bold";
+    font-size: "ubuntu-bold";
     font-size: 2.5rem;
     font-weight: bold;
 
