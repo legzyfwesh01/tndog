@@ -4,22 +4,28 @@
 
 }
 body {
-    font-family: "montserrat-Black";
+    font-family: "MontserratBlack";
 }
 
 .contaner-fluid {
-    padding: 3% 25%;
+    padding: 3% 15% 7%;
 }
 
 h1 {
-    font-family: "montserrat-Black";
+    font-family: "Montserrat-Black";
    font-size: 3.5rem;
    line-height: 1.5;
 
 }
 
 h3 {
-    font-family: "montserrat-Bold";
+    font-family: "Montserrat-Bold";
+}
+
+h2 {
+    font-family: "Montserrat-Bold";
+    font-size: 3rem;
+    line-height: 1.5;
 }
 
 p {
@@ -33,7 +39,7 @@ p {
 }
 
 .navbar-brand {
-    font-size: "ubuntu-bold";
+    font-size: "Ubuntu-Bold";
     font-size: 2.5rem;
     font-weight: bold;
 
@@ -56,10 +62,37 @@ p {
 }
 
 /* title image */
+
+@media  ( max-width:1257px ) {
+    .title-image{
+        position: static;
+        transform: rotate(0);
+    }
+    
+    #title{
+        text-align: center;
+    }
+    
+}
+
+
+/* @media only screen and  (max-width:1028px) {
+    .title-image{
+        position: static;
+        transform: rotate(0);
+    }
+    #title{
+        text-align: center;
+    }
+} */
+
 .title-image {
-  width: 60%;
+  width: 20%;
   transform: rotate(25deg);
   padding-top: 25px;
+  position: absolute;
+  right: 30%;
+  
 }
 
 
@@ -67,10 +100,17 @@ p {
 
 #features {
  padding: 7% 15%;
+ background-color: #fff;
+ position: relative;
+
 }
 
 #testimonials{
-    background-color: #ff4c68;
+    background-color: #ef8172;
+    padding: 7% 15%;
+    text-align: center;
+    color: #fff;
+   
 }
 
 .carosel-mage {
@@ -78,8 +118,9 @@ p {
 }
 
 #press{
-    background-color: #ff4c68;
-    padding: 10%;
+    background-color: #ef8172;
+    padding: 3%;
+    text-align: center;
    
    }
 
@@ -97,9 +138,68 @@ p {
 }
 
 .logos {
-    margin-top: 10%;
-    width: 55%;
+    margin: 20% 20% 50%;
+    width: 45%;
     
  
 }
 
+
+/* testimonial section */
+
+#Testimonials {
+    padding: 7% 15%;
+    text-align: center;
+    background-color: #ef8172;
+    color: #fff;
+}
+
+
+
+
+.testimonials-mage {
+    width: 10%;
+    border-radius: 100%;
+    margin: 20%;
+}
+/* pricing section */
+
+
+#pricing{
+  padding: 100px;
+  text-align: center;
+
+
+}
+.pricin-column {
+    padding: 3% 2%;
+}
+
+/* cta */
+#cta {
+    background-color: #ff4c68;
+    text-align: center;
+    font-family: "Montserrat-Black" ;
+    padding: 7% 15%;
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+/* footer */
+
+#footer{
+    background-color: #fff;
+    text-align: center;
+    padding: 7% 15%;
+
+
+}
+
+
+.pro-brand {
+    margin: 5% 3%;
+}
+
+
+
+/* footer */
